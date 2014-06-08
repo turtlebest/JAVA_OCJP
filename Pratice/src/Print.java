@@ -1,6 +1,9 @@
   
 public class Print {
   public static void main(String[] args) {
-    System.out.println("Turtle");
-  } 
+    Greeting a = new Greeting();
+    a.greet();
+    System.out.print(args[0]);
+    System.out.print(args[1]);
+    } 
 }
